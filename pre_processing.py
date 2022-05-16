@@ -105,10 +105,10 @@ class preprocessing:
         #the supreme function holds the control of all over the code
         #step by step calling and throwing out the perfect shape arrays
         return self.meta_train,self.meta_target,self.meta_test,self.meta_test_target
-df=pd.read_csv("/Users/varunreddyseelam/Downloads/Harshith-app/energy_consump_preprocessed.csv")
-x=preprocessing(df,"active_energy",100,2,2)
-a1,a2,a3,a4=x.supreme_method()
-print(a1.shape)
-print(a2.shape)
-print(a3.shape)
-print(a4.shape)
+#df=pd.read_csv("/Users/varunreddyseelam/Downloads/Harshith-app/energy_consump_preprocessed.csv")
+#x=preprocessing(df,"active_energy",100,2,2)
+#a1,a2,a3,a4=x.supreme_method()
+#print(a1.shape)
+#print(a2.shape)
+#print(a3.shape)
+#print(a4.shape)
